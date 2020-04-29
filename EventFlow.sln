@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26730.12
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventFlow", "Source\EventFlow\EventFlow.csproj", "{11131251-778D-4D2E-BDD1-4844A789BCA9}"
 EndProject
@@ -100,6 +100,12 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventFlow.MongoDB", "Source\EventFlow.MongoDB\EventFlow.MongoDB.csproj", "{C34BFD0C-E7CD-4DEE-A1F4-8FBE9DE0B239}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventFlow.MongoDB.Tests", "Source\EventFlow.MongoDB.Tests\EventFlow.MongoDB.Tests.csproj", "{2D837E47-E92B-422E-AC29-AB5607E9E6D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DryIoc", "DryIoc", "{55F534BF-3C91-4B21-B92B-96EC2218A8E3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventFlow.DryIoc", "Source\Eventflow.DryIoc\EventFlow.DryIoc.csproj", "{A71E27CC-8678-44AA-BDB4-8BA558724D75}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventFlow.DryIoc.Tests", "Source\EventFlow.DryIoc.Tests\EventFlow.DryIoc.Tests.csproj", "{65395BF8-6BDE-49A8-A1D9-551E923E6714}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -243,6 +249,14 @@ Global
 		{2D837E47-E92B-422E-AC29-AB5607E9E6D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D837E47-E92B-422E-AC29-AB5607E9E6D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D837E47-E92B-422E-AC29-AB5607E9E6D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A71E27CC-8678-44AA-BDB4-8BA558724D75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A71E27CC-8678-44AA-BDB4-8BA558724D75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A71E27CC-8678-44AA-BDB4-8BA558724D75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A71E27CC-8678-44AA-BDB4-8BA558724D75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65395BF8-6BDE-49A8-A1D9-551E923E6714}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65395BF8-6BDE-49A8-A1D9-551E923E6714}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65395BF8-6BDE-49A8-A1D9-551E923E6714}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65395BF8-6BDE-49A8-A1D9-551E923E6714}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -282,6 +296,8 @@ Global
 		{5B2706DA-B66C-4CD9-8441-8C9BDACB8348} = {92F3C263-8C0C-4D12-B41A-452E48D2E5E8}
 		{C34BFD0C-E7CD-4DEE-A1F4-8FBE9DE0B239} = {7832AC5E-5CE2-4694-BA43-E53222B75EDC}
 		{2D837E47-E92B-422E-AC29-AB5607E9E6D1} = {7832AC5E-5CE2-4694-BA43-E53222B75EDC}
+		{A71E27CC-8678-44AA-BDB4-8BA558724D75} = {55F534BF-3C91-4B21-B92B-96EC2218A8E3}
+		{65395BF8-6BDE-49A8-A1D9-551E923E6714} = {55F534BF-3C91-4B21-B92B-96EC2218A8E3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {17607E2C-4E8E-45A2-85BD-0A5808E1C0F3}
